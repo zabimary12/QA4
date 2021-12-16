@@ -1,0 +1,16 @@
+{
+  "name": "Shmorhunenko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx newman run Shmorhunenko.postman_collection.json -r cli,htmlextra"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "5.2.2",
+    "newman-reporter-htmlextra": "^1.20.3"
+    }
+}
